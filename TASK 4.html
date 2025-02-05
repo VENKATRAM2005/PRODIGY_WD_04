@@ -8,63 +8,46 @@
     <script defer src="script.js"></script>
 </head>
 <body>
+    <nav class="navbar">
+        <div class="logo">Venkatram R</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="darkModeToggle">🌙</button>
+    </nav>
 
-    <!-- Navigation Bar -->
-    <header>
-        <h1>Venkatram R</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><button id="theme-toggle">🌙</button></li>
-            </ul>
-        </nav>
+    <header class="hero">
+        <h1>Highly Analytical, Sincere & Creative Thinker</h1>
+        <a href="https://www.linkedin.com/in/venkatram-r-0321002a5/" target="_blank" class="btn">View My Work</a>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <img src="images/profile.jpg" alt="Venkatram R">
-        <h2>Highly Analytical, Sincere & Creative Thinker</h2>
-        <a href="#projects" class="btn">View My Work</a>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
+    <section id="about" class="card">
         <h2>About Me</h2>
-        <p>Currently pursuing **CSE at Nehru Institute of Engineering & Technology, Coimbatore**. Former **School Captain** at KV AFS Thanjavur & **Rajyapuraskar Scout**. Achieved **topper scores in NPTEL exams** and ranked **2nd in first year**. Passionate about **technology, problem-solving, and innovation**.</p>
+        <p>
+            Currently pursuing **CSE at Nehru Institute of Engineering & Technology, Coimbatore**. 
+            Former **School Captain** at KV AFS Thanjavur & **Rajyapuraskar Scout**. 
+            Achieved **topper scores in NPTEL exams** and ranked **2nd in first year**.
+        </p>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
+    <section id="skills" class="card">
         <h2>Skills</h2>
-        <div class="skills-grid">
-            <span>Python</span>
-            <span>C</span>
-            <span>Java</span>
-            <span>IoT</span>
-            <span>Full Stack Web Development</span>
-        </div>
+        <p>Python | C | Java | IoT | Full Stack Web Development</p>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
+    <section id="projects" class="card">
         <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="project">
-                <h3>Prodigy Infotech Tasks</h3>
-                <p>Completed **3 web development tasks** at Prodigy Infotech, showcasing my skills in **frontend & backend development**.</p>
-            </div>
-        </div>
+        <h3>Prodigy Infotech Tasks</h3>
+        <p>Completed **3 web development tasks** at Prodigy Infotech, showcasing skills in **frontend & backend development**.</p>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="card">
         <h2>Contact</h2>
-        <p>Connect with me on LinkedIn:</p>
-        <a href="https://www.linkedin.com/in/venkatram-r-0321002a5/" class="btn">LinkedIn</a>
+        <p>Email: <a href="mailto:venkatramr@example.com">venkatramr@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/venkatram-r-0321002a5/" target="_blank">Venkatram R</a></p>
     </section>
-
 </body>
 </html>
